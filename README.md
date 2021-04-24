@@ -1,34 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Frontend React - Podcastr
 
-## Getting Started
+Podcastr é um projeto construído em React com TypeScript, utilizando NextJS, durante Next Level Week #05 da Rocketseat 
 
-First, run the development server:
+## Requisitos
 
-```bash
-npm run dev
-# or
-yarn dev
 ```
+Nodejs >= 10
+```
+## Preview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img src="./docs/assets/preview-desktop.gif" width="100%">
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Como Iniciar?
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1.  **Faça o clone do repositório.**
 
-## Learn More
+    ```
+      git clone https://github.com/geraldobl58/podcast-nextjs.git
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Instalação das dependências**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   execute na pasta do projeto o seguinte comando:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```npm install ou yarn
+    ```
 
-## Deploy on Vercel
+    após a instalação execute o seguinte comando.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```npm run start ou yarn start
+    Observação: em uma nova aba execute => yarn server
+    (Aba 1) => yarn dev
+    (Aba 2) => yarn server
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1.  **Verificando no navegador**
+
+    O projeto vai executar no seguinte endereço: `http://localhost:3000`
+
+## Techs
+
+
+ - [x] [React](https://pt-br.reactjs.org/)
+ - [x] [Typescript](https://pt-br.reactjs.org/)
+ - [x] [NextJS](https://nextjs.org/)
+ - [x] [Axios](https://github.com/axios/axios)
+ - [x] [Date FNS](https://date-fns.org/)
+ - [x] [RC Slider](https://www.npmjs.com/package/rc-slider)
+ - [x] [SASS](https://sass-lang.com/)
+
+## Diretórios
+
+Estrutura do projeto.
+
+    .
+    ├── node_modules
+    ├── src
+    ├──────── components
+    ├──────── contexts
+    ├──────── pages
+    ├──────── services
+    ├──────── styles
+    ├──────── utils
+    ├── .gitignore
+    ├── package.json
+    └── README.md
